@@ -1,0 +1,11 @@
+$blue: #3bbfce;
+$margin: 16px;
+.navigation {
+  border-color: $blue;
+  margin: $margin / 2;
+}
+.border {
+  padding: $margin / 2;
+  margin: $margin / 2;
+  border-color: $blue;
+}

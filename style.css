@@ -1,0 +1,88 @@
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.logo{
+	color: red;
+	width: 124px;
+	height: 38px;
+	top: 15px;
+	left: 350px;
+	padding-left: 125px;
+}
+.header  i {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 50px; 
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header i:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header i.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header .navbar{
+	padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+hr{
+	background-color: #a52a2a;
+}
+
+.button{
+	float: right;
+}
+.i{
+	height: 200px;
+	width: 200px;
+}
+ul li{
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  display: inline;
+}
+
+img{
+	padding-left: 45%;
+	padding-bottom: 50%;
+	padding-right: 30%;
+	padding-top: 66px;
+}
+
+.background{
+	background-color: #a52a2a;
+	height: 350px;
+	width: 450px;
+}
+
+.articles-left {
+	overflow: hidden;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
